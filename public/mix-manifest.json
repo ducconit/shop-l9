@@ -1,8 +1,8 @@
 {
-    "/js/app.js": "/js/app.js",
-    "/css/admin-dark.css": "/css/admin-dark.css",
-    "/css/admin.css": "/css/admin.css",
-    "/css/bootstrap.css": "/css/bootstrap.css",
-    "/css/bootstrap-dark.css": "/css/bootstrap-dark.css",
-    "/css/icons.css": "/css/icons.css"
+    "/admin/js/app.js": "/admin/js/app.js",
+    "/admin/css/admin-dark.css": "/admin/css/admin-dark.css",
+    "/admin/css/admin.css": "/admin/css/admin.css",
+    "/admin/css/bootstrap.css": "/admin/css/bootstrap.css",
+    "/admin/css/bootstrap-dark.css": "/admin/css/bootstrap-dark.css",
+    "/admin/css/icons.css": "/admin/css/icons.css"
 }

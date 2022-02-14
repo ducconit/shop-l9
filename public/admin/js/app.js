@@ -1,10 +1,10 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./resources/js/app.js":
-/*!*****************************!*\
-  !*** ./resources/js/app.js ***!
-  \*****************************/
+/***/ "./resources/js/dashboard/app.js":
+/*!***************************************!*\
+  !*** ./resources/js/dashboard/app.js ***!
+  \***************************************/
 /***/ (() => {
 
 /*
@@ -270,10 +270,10 @@ File: Main Js File
 
 /***/ }),
 
-/***/ "./resources/scss/icons.scss":
-/*!***********************************!*\
-  !*** ./resources/scss/icons.scss ***!
-  \***********************************/
+/***/ "./resources/scss/dashboard/icons.scss":
+/*!*********************************************!*\
+  !*** ./resources/scss/dashboard/icons.scss ***!
+  \*********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -283,10 +283,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/scss/admin.scss":
-/*!***********************************!*\
-  !*** ./resources/scss/admin.scss ***!
-  \***********************************/
+/***/ "./resources/scss/dashboard/bootstrap-dark.scss":
+/*!******************************************************!*\
+  !*** ./resources/scss/dashboard/bootstrap-dark.scss ***!
+  \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -296,10 +296,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/scss/admin-dark.scss":
-/*!****************************************!*\
-  !*** ./resources/scss/admin-dark.scss ***!
-  \****************************************/
+/***/ "./resources/scss/dashboard/bootstrap.scss":
+/*!*************************************************!*\
+  !*** ./resources/scss/dashboard/bootstrap.scss ***!
+  \*************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -309,10 +309,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/scss/bootstrap-dark.scss":
-/*!********************************************!*\
-  !*** ./resources/scss/bootstrap-dark.scss ***!
-  \********************************************/
+/***/ "./resources/scss/dashboard/admin.scss":
+/*!*********************************************!*\
+  !*** ./resources/scss/dashboard/admin.scss ***!
+  \*********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -322,10 +322,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/scss/bootstrap.scss":
-/*!***************************************!*\
-  !*** ./resources/scss/bootstrap.scss ***!
-  \***************************************/
+/***/ "./resources/scss/dashboard/admin-dark.scss":
+/*!**************************************************!*\
+  !*** ./resources/scss/dashboard/admin-dark.scss ***!
+  \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -421,12 +421,12 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"/js/app": 0,
-/******/ 			"css/admin-dark": 0,
-/******/ 			"css/admin": 0,
-/******/ 			"css/bootstrap": 0,
-/******/ 			"css/bootstrap-dark": 0,
-/******/ 			"css/icons": 0
+/******/ 			"/admin/js/app": 0,
+/******/ 			"admin/css/admin-dark": 0,
+/******/ 			"admin/css/admin": 0,
+/******/ 			"admin/css/bootstrap": 0,
+/******/ 			"admin/css/bootstrap-dark": 0,
+/******/ 			"admin/css/icons": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -476,12 +476,12 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/admin-dark","css/admin","css/bootstrap","css/bootstrap-dark","css/icons"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/admin-dark","css/admin","css/bootstrap","css/bootstrap-dark","css/icons"], () => (__webpack_require__("./resources/scss/icons.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/admin-dark","css/admin","css/bootstrap","css/bootstrap-dark","css/icons"], () => (__webpack_require__("./resources/scss/admin.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/admin-dark","css/admin","css/bootstrap","css/bootstrap-dark","css/icons"], () => (__webpack_require__("./resources/scss/admin-dark.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/admin-dark","css/admin","css/bootstrap","css/bootstrap-dark","css/icons"], () => (__webpack_require__("./resources/scss/bootstrap-dark.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/admin-dark","css/admin","css/bootstrap","css/bootstrap-dark","css/icons"], () => (__webpack_require__("./resources/scss/bootstrap.scss")))
+/******/ 	__webpack_require__.O(undefined, ["admin/css/admin-dark","admin/css/admin","admin/css/bootstrap","admin/css/bootstrap-dark","admin/css/icons"], () => (__webpack_require__("./resources/js/dashboard/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["admin/css/admin-dark","admin/css/admin","admin/css/bootstrap","admin/css/bootstrap-dark","admin/css/icons"], () => (__webpack_require__("./resources/scss/dashboard/icons.scss")))
+/******/ 	__webpack_require__.O(undefined, ["admin/css/admin-dark","admin/css/admin","admin/css/bootstrap","admin/css/bootstrap-dark","admin/css/icons"], () => (__webpack_require__("./resources/scss/dashboard/bootstrap-dark.scss")))
+/******/ 	__webpack_require__.O(undefined, ["admin/css/admin-dark","admin/css/admin","admin/css/bootstrap","admin/css/bootstrap-dark","admin/css/icons"], () => (__webpack_require__("./resources/scss/dashboard/bootstrap.scss")))
+/******/ 	__webpack_require__.O(undefined, ["admin/css/admin-dark","admin/css/admin","admin/css/bootstrap","admin/css/bootstrap-dark","admin/css/icons"], () => (__webpack_require__("./resources/scss/dashboard/admin.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["admin/css/admin-dark","admin/css/admin","admin/css/bootstrap","admin/css/bootstrap-dark","admin/css/icons"], () => (__webpack_require__("./resources/scss/dashboard/admin-dark.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
